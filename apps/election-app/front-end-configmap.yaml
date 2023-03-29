@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: front-end-configmap
+data:
+  REACT_APP_BACKEND_API: /api
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: front-end-secret
+type: Opaque
+stringData:
+  REACT_APP_BACKEND_API: election-app-backend
