@@ -61,7 +61,7 @@ metadata:
     type: local
     app: election-app-postgres
 spec:
-  storageClassName: manual
+  storageClassName: default
   capacity:
     storage: 8Gi
   accessModes:
@@ -74,7 +74,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: db-persistent-volume-claim
 spec:
-  storageClassName: manual
+  storageClassName: default
   accessModes:
     - ReadWriteMany
   resources:
