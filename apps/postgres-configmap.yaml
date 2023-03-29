@@ -1,0 +1,25 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: postgres-configmap 
+  labels:
+    app: election-app-postgres
+data:
+  POSTGRES_DB : db
+  POSTGRES_USER : admin
+  
+  POSTGRES_PASSWORD:  admin123
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: postgres-secret
+  labels:
+    app: election-app-postgres
+stringData:
+  POSTGRES_DB : db
+  POSTGRES_USER : admin
+  POSTGRES_PASSWORD:  admin123
+
+
+

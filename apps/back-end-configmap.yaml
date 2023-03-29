@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: back-end-configmap
+data:
+  DB_USER: admin
+  DB_HOST: election-app-postgres
+  DB_NAME: db
+  DATABASE_URL: postgresql://admin:admin123@election-app-postgres/db?connect_timeout=1000
+
+  
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: back-end-secret
+type: Opaque
+stringData:
+  #DB_USER: admin
+  DB_PASSWORD: admin123
+  #DB_HOST: election-app-postgres
+  #PORT: "5432"
+  #DB_NAME: db
+  SECRET_KEY: Bco2mYFjYclGvmOYTYyxPXzU4GQuK=8hrt23Ryp45ispU0W9xDx3cbtJiJjGw6Tf1GPU-oWA0v2FWT4xV15u23UzK4VNRwU!iQqz92M-DvRHdsVRKSh6sPiyfLGVV5De2qIpHNTbAuuf52F-49k3IHx99KwTPWCb6VFoaMu!RJT4-u3CU4Zi-=FcAcbiIxIrLi8A=pf9CFcSCIXtiaJp!h21VwW?wTE0EZrwuSXeH3O7?TjnisCpRe?AE
+
+
+
