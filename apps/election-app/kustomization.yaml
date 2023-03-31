@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: abdelhakavaxia/election-app-front-end
-  newTag: devedbb238
+  newTag: dev
 resources:
 #- back-end-configmap.yaml
 #- back-end-deploy.yaml
