@@ -1,10 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-images:
-- name: docker.io/abdelhakavaxia/election-app-back-end
-  newTag: deva23a548
-- name: docker.io/abdelhakavaxia/election-app-front-end
-  newTag: deva23a548
 resources:
 - back-end-configmap.yaml
 - back-end-deploy.yaml
