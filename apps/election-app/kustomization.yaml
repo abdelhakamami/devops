@@ -4,11 +4,11 @@ images:
 - name: abdelhakavaxia/election-app-front-end
   newTag: devedbb238
 resources:
-- back-end-configmap.yaml
-- back-end-deploy.yaml
-- front-end-configmap.yaml
+#- back-end-configmap.yaml
+#- back-end-deploy.yaml
+#- front-end-configmap.yaml
 - front-end-deploy.yaml
-- postgres-configmap.yaml
-- postgres.yaml
+#- postgres-configmap.yaml
+#- postgres.yaml
 namespace: test
 
