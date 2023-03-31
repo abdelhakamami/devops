@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: election-app-frontend
-        image: docker.io/abdelhakavaxia/election-app-front-end
-        tag: devedbb238
+        image: docker.io/abdelhakavaxia/election-app-front-end:devedbb238
         imagePullPolicy: Always
 
         env: 
