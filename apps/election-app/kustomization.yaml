@@ -8,7 +8,7 @@ resources:
 - back-end-deploy.yaml
 #- front-end-configmap.yaml
 #- front-end-deploy.yaml
-#- postgres-configmap.yaml
+- postgres-configmap.yaml
 - postgres.yaml
 namespace: test
 
