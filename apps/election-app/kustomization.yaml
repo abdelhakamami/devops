@@ -8,3 +8,6 @@ resources:
 - postgres-configmap.yaml
 - postgres.yaml
 namespace: test
+images:
+ - name: abdelhakavaxia/election-app-front-end
+   newTag: dev
