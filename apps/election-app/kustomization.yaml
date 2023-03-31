@@ -3,9 +3,9 @@ kind: Kustomization
 images:
 images:
 - name: abdelhakavaxia/election-app-front-end
-   newTag: devedbb238
+  newTag: devedbb238
 - name : abdelhakavaxia/election-app-back-end
-   newTag: devedbb238
+  newTag: devedbb238
 resources:
 - back-end-configmap.yaml
 - back-end-deploy.yaml
