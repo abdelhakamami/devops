@@ -10,5 +10,5 @@ resources:
 - front-end-deploy.yaml
 #- postgres-configmap.yaml
 #- postgres.yaml
-namespace: test
+namespace: test#
 
