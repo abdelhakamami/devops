@@ -4,12 +4,12 @@ resources:
 - back-end-configmap.yaml
 - back-end-deploy.yaml
 - front-end-configmap.yaml
-- front-end-deploy.yaml
+#- front-end-deploy.yaml
 - postgres-configmap.yaml
 - postgres.yaml
 namespace: test
 images:
- - name: abdelhakavaxia/election-app-front-end
-   newTag: devedbb238 #
+ #- name: abdelhakavaxia/election-app-front-end
+   #newTag: devedbb238 #
  - name : abdelhakavaxia/election-app-back-end
    newTag: devedbb238
