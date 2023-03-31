@@ -11,3 +11,5 @@ namespace: test
 images:
  - name: abdelhakavaxia/election-app-front-end
    newTag: dev #
+ - name : abdelhakavaxia/election-app-back-end
+   newTag: devedbb238
