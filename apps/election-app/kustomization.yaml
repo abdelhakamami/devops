@@ -9,7 +9,5 @@ resources:
 - postgres.yaml
 namespace: test
 images:
- #- name: abdelhakavaxia/election-app-front-end
-   #newTag: devedbb238 #
  - name : abdelhakavaxia/election-app-back-end
    newTag: devedbb238
