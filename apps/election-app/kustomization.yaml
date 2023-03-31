@@ -10,4 +10,4 @@ resources:
 namespace: test
 images:
  - name: abdelhakavaxia/election-app-front-end
-   newTag: dev
+   newTag: dev #
