@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: election-app-postgres
-        image: docker.io/abdelhakavaxia/election-app-back-end:devedbb238
+        image: docker.io/abdelhakavaxia/election-app-back-end
+        newTag: ${TAG}
         imagePullPolicy: Always
         #restart: always
         env: 
