@@ -8,3 +8,8 @@ resources:
 - postgres-configmap.yaml
 - postgres.yaml
 namespace: test
+images:
+- name: docker.io/abdelhakavaxia/election-app-back-end
+  newTag: dev${DRONE_COMMIT_SHA:0:7}
+- name: docker.io/abdelhakavaxia/election-app-front-end
+  newTag: dev${DRONE_COMMIT_SHA:0:7}
