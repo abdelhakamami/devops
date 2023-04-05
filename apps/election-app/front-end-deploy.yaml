@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: election-app-frontend
-        image: docker.io/abdelhakavaxia/election-app-front-end:dev${DRONE_COMMIT_SHA:0:7}
+        image: docker.io/abdelhakavaxia/election-app-front-end:devdd17290
         imagePullPolicy: Always
 
         env: 
