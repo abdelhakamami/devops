@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: election-app-postgres
-        image: docker.io/abdelhakavaxia/election-app-back-end:dev${DRONE_COMMIT_SHA:0:7}
+        image: docker.io/abdelhakavaxia/election-app-back-end:devdd17290
         imagePullPolicy: Always
         #restart: always
         env: 
