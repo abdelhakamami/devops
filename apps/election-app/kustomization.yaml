@@ -10,6 +10,6 @@ resources:
 namespace: test
 images:
 - name: docker.io/abdelhakavaxia/election-app-back-end
-  newTag: devc61601a
+  newTag: dev74501a8
 - name: docker.io/abdelhakavaxia/election-app-front-end
   newTag: dev${DRONE_COMMIT_BEFORE:0:7}
