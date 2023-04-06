@@ -12,4 +12,4 @@ images:
 - name: docker.io/abdelhakavaxia/election-app-back-end
   newTag: dev0851b8a
 - name: docker.io/abdelhakavaxia/election-app-front-end
-  newTag: dev6589df8
+  newTag: devdaab144
