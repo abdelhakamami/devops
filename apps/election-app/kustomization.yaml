@@ -10,6 +10,6 @@ resources:
 namespace: test
 images:
 - name: docker.io/abdelhakavaxia/election-app-back-end
-  newTag: devfde2389
+  newTag: deve3989f2
 - name: docker.io/abdelhakavaxia/election-app-front-end
   newTag: dev96180b3
